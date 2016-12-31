@@ -75,6 +75,7 @@
     <Compile Include="Assets\GraphicsOptions.cs" />
     <Compile Include="Assets\Scripts\ChangeScene.cs" />
     <Compile Include="Assets\Scripts\CustomGrapics.cs" />
+    <Compile Include="Assets\Scripts\GameMaster.cs" />
     <Compile Include="Assets\Scripts\HealthBar.cs" />
     <Compile Include="Assets\Scripts\ItemWheel.cs" />
     <Compile Include="Assets\Scripts\ItemsMenu.cs" />

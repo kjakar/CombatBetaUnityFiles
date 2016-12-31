@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/SceenSwitcher.unity
+- path: Assets/ItemsMenu.unity
   isLoaded: 1
   isActive: 1

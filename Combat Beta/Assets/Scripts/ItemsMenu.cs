@@ -9,11 +9,11 @@ public class ItemsMenu : MonoBehaviour {
     #region GlobalVars
 
     //these keep track of the items in the menu
-    public string[] Slots = {"one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve", "thirteen", "fourteen", "None", "None", "None", "None", "None", "None", "None", "None", "None", "None", "None" };
-    public int[] SlotsAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+    public string[] Slots = {"one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve", "thirteen", "fourteen", "15", "16", "17", "18", "19", "20"};
+    public int[] SlotsAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
 
     private int numRows = 5;
-    private int numCols = 5;
+    private int numCols = 4;
 
     //this keeps track of the pointer posistion
     private int currentSlot = 8;
@@ -43,7 +43,7 @@ public class ItemsMenu : MonoBehaviour {
 
 
     void Start () {
-        Debug.Log(SlotsAmount.Length + "    " + Slots.Length);
+        //Debug.Log(SlotsAmount.Length + "    " + Slots.Length);
 	}
 
 
@@ -201,7 +201,7 @@ public class ItemsMenu : MonoBehaviour {
         
         #endregion
 
-        Debug.Log(Slots[currentSlot - 1] + " < slot | use menu pos > " + useMenuPos + " item up > " + ItemWheel.ItemUp + " is equiping > " + isEquiping);
+        //Debug.Log(Slots[currentSlot - 1] + " < slot | use menu pos > " + useMenuPos + " item up > " + ItemWheel.ItemUp + " is equiping > " + isEquiping);
 
 
     }
